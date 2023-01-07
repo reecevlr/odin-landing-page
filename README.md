@@ -7,6 +7,13 @@ This is my attempt at Odin's project Landing Page.
 * HTML
 * CSS
 
+### Timeline
+* 01/07
+  * Project start
+  * Complete html page
+  * Finished nav-bar, and top-section
+
+
 ### CREDITS
 * Majestic Horse
   * Photo by Włodzimierz Jaworski (Unsplash)
