@@ -12,6 +12,10 @@ This is my attempt at Odin's project Landing Page.
   * Project start
   * Complete html page
   * Finished nav-bar, and top-section
+* 01/08
+  * Project finish
+  * Complete CSS styling
+    * Primarily structured using flexbox properties
 
 
 ### CREDITS
