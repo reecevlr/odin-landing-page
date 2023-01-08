@@ -22,13 +22,19 @@ h1 {
     font-weight: extra-bold;
 }
 
+h2 {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937
+}
+
 h3 {
     font-size: 24px;
 }
 
 a, 
 button,
-.content-secondary-text {
+.secondary-text {
     font-size: 18px;
     color: #E5E7EB;
     text-decoration: none;
@@ -89,4 +95,65 @@ button {
 .links {
     display: flex;
     gap: 15px;
+}
+
+.section-information {
+    margin-bottom: 75px;
+    padding: 75px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.container-information {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    gap: 60px;
+}
+
+.container-img-txt {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    gap: 10px;
+}
+
+.img-border {
+    border: 6px solid #3882F6;
+    border-radius: 10px;
+    height: 10vw;
+    width: 10vw;
+}
+
+.img-border img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 3px;
+}
+
+.container-img-txt .secondary-text {
+    color: #1f2937ad;
+    width: 10vw;
+    text-align: center;
+}
+
+.section-quote {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    padding: 120px 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.section-quote .quote-closing {
+    font-size: 30px;
+    font-style: normal;
+    font-weight: bold;
+    align-self: flex-end;
 }
