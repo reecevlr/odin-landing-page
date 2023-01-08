@@ -39,7 +39,8 @@ h3,
 a, 
 .sign-up-button,
 .secondary-text,
-.sign-up-text {
+.sign-up-text,
+.section-footer {
     font-size: 18px;
     color: #E5E7EB;
     text-decoration: none;
@@ -164,8 +165,6 @@ a:hover {
 }
 
 .section-sign-up {
-    display: flex;
-    justify-content: center;
     padding: 85px 250px;
 }
 
@@ -183,4 +182,11 @@ a:hover {
 .container-sign-up .sign-up-button {
     border: 2px solid #F9FAF8;
     flex: 0 1 content;
+}
+
+.section-footer {
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
